@@ -1,5 +1,5 @@
 body {
-  background-color:thistle;
+  background-color:rgb(192, 216, 191);
   font-family: 'Noto Serif SC', serif;
 }
 
@@ -13,20 +13,21 @@ ul {
 
 #projectsPage {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .projectCard {
+  display: flex;
+  flex-direction: column;
   border: solid 2px black;
   background-color: whitesmoke;
   margin: 10px;
-  padding: 5px;
   font-size: 10pt;
 }
 
-img {
-  align-items: center;
-  width: 200px;
+.img {
+  width: 250px;
+  padding: 5px;
 }
 
 .title {
@@ -34,16 +35,20 @@ img {
   text-align: center;
   font-weight: bold;
   padding: 10px;
+  background-color: rgb(130, 151, 127);
 }
 
-
+.footer-p {
+  margin: 0;
+  padding: 0 3px;
+}
 
 footer {
   display: flex;
   font-size: 8pt;
-  background-color: rgb(75, 56, 75);
+  background-color: rgb(60, 75, 56);
   color: white;
-  padding: 5pt;
+  padding: 0 5px 10px;
   margin: 0;
   flex-direction: column;
 }
