@@ -4,41 +4,45 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="./main.css">
-  <link href="https://fonts.googleapis.com/css?family=Noto+Serif+SC&display=swap" rel="stylesheet">
-  <header>Bethany Whitworth's BioPage</header>
+  <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <!-- Navigation -->
-  <nav>
-    <h3>Bethany Whitworth</h3>
-    <ul id="navLinks">
-      <li><a id="navToBio">Bio</a></li>
-      <li><a id="navToTechnologies">Technologies</a></li>
-      <li><a id="navToProjects">Projects</a></li>
-    </ul>
+  <!-- NAV BAR -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand strong" href="#">Bethany Whitworth</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="#">Home/Bio <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" href="#">Technologies</a>
+        <a class="nav-item nav-link" href="#">Projects</a>
+      </div>
+    </div>
   </nav>
-  <!-- End Navigation -->
 
   <!-- Primary View -->
-  <div class="fullPage" id="bioPage">
-    <h3>Bio Summary:</h3>
+  <div class="div-section" id="bioPage">
+    <h3>Bio:</h3>
     <p>I have been working as a healthcare billing specialist for about 8 years, 
       with plenty of exposure to healthcare tech.  I am interested in one day applying
       my healthcare background knowledge to the technology side of health research 
-      and patient care.  So far, I am enjoying learning something new, and seeing my 
+      and patient care.  So far, I enjoy learning something new every day, and seeing my 
       code "work".  I have a strong interest in effeciency and productivity, so I hope 
       to one day apply these skills to a new position as a developer.</p>
   </div>
-  <div class="fullPage" id="technologiesPage">
+  <div class="div-section" id="technologiesPage">
     <h3>Tools & Technologies Learned So Far:</h3>
-    <ul>
-      <li>CSS</li>
-      <li>HTML</li>
-      <li>JavaScript</li>
-    </ul>
-  </div>
+    <div class="list-group">
+      <a href="#" class="list-group-item list-group-item-action">HTML</a>
+      <a href="#" class="list-group-item list-group-item-action">CSS</a>
+      <a href="#" class="list-group-item list-group-item-action">Javascript</a>
+      <a href="#" class="list-group-item list-group-item-action">Bootstrap</a>
+    </div>
   <div class="fullPage" id="projectsPage">
 
   </div>
@@ -53,6 +57,9 @@
     <p class="footer-p">GitHub > github.com/bwhitworth</p class="footer-p">
   </footer>
   <!-- End Footer -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   <script src="./main.js"></script>
 </body>
 </html>

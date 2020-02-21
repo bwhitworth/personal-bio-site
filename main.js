@@ -31,18 +31,25 @@ const createProjectCards = () => {
   let domString = '';
   for (let i = 0; i < projects.length; i++) {
     if (projects[i].available === true) {
-    domString += `<div class="projectCard">`;
-    domString += `<div class="title">${projects[i].title}</div>`;
-    domString += `<img src="${projects[i].screenshot}" class="img" alt="screenshot">`;
-    domString += `<p>${projects[i].description}</p>`;
-    domString += `<p>Technologies Used: ${projects[i].technologiesUsed}</p>`;
-    domString += `<p>Available: ${projects[i].available}</p>`;
-    domString += `<a href="http://${projects[i].githubUrl}">GitHub link</a>`;
-    domString += `</div>`;
+      domString += '<div class="card" style="width: 20rem;">';
+      domString += `  <h5 class="card-header">${projects[i].title}</h5>`;
+      domString += `  <img src="${projects[i].screenshot}" class="card-img-top" alt="project screenshot">`;
+      domString += '  <div class="card-body">';
+      domString += `    <p class="card-text">${projects[i].description}</p>`;
+      domString += `    <p class="card-text">Technologies Used: ${projects[i].technologiesUsed}</p>`;
+      domString += `    <a href="${projects[i].githubUrl}" class="btn btn-info">GitHub Link</a>`;
+      domString += '  </div>';
+      domString += '</div>';
     };
   }
 
   printToDom('projectsPage',domString);
 };
 
+const init = () => {
 createProjectCards();
+};
+
+init();
+
+
