@@ -1,14 +1,10 @@
 body {
-  background-color:rgb(192, 216, 191);
-  font-family: 'Noto Serif SC', serif;
+  background-color:#baeecb;
+  font-family: 'Muli', serif;
 }
 
-.nav {
-  display: flexbox;
-}
-
-ul {
-  list-style: none;
+.div-section {
+  margin: 20px;
 }
 
 #projectsPage {
@@ -35,7 +31,7 @@ ul {
   text-align: center;
   font-weight: bold;
   padding: 10px;
-  background-color: rgb(130, 151, 127);
+  background-color: cadetblue;
 }
 
 .footer-p {
