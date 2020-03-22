@@ -5,7 +5,6 @@ const showSelectedDiv = (divId, btnId) => {
   $(`#${divId}`).removeClass('hide');
 };
 
-
 const navButtonEvents = () => {
   $('#home-bio-btn').on('click', () => showSelectedDiv('bio-section', 'home-bio-btn'));
   $('#tech-btn').on('click', () => showSelectedDiv('tech-section', 'tech-btn'));
