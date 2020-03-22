@@ -8,7 +8,7 @@ const printProjectCards = () => {
     if (item.available) {
       domString += '<div class="card project-card" style="width: 20rem">';
       domString += `  <h5 class='card-header'>${item.title}</h5>`;
-      domString += `  <img src='${item.screenshot}' class='card-img-top' alt='project screenshot'>`;
+      domString += `  <div class="img-container"><img src='${item.screenshot}' class='card-img-top' alt='project screenshot'></div>`;
       domString += '  <div class="card-body">';
       domString += `    <p class='card-text'>${item.description}</p>`;
       domString += `    <p class='card-text'>Technologies Used: <br> ${item.technologiesUsed}</p>`;
