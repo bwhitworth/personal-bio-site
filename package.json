@@ -2,7 +2,7 @@
   "name": "personal-bio-site",
   "version": "1.0.0",
   "description": "### Technologies Used: HTML5, CSS, Vanilla Javascript, Bootstrap",
-  "main": "src/javascripts/main.js",
+  "main": "./src/javascripts/main.js",
   "scripts": {
     "start": "webpack-dev-server --mode development --open",
     "build": "webpack --mode production --module-bind js=babel-loader",
@@ -20,9 +20,9 @@
   },
   "homepage": "https://github.com/bwhitworth/personal-bio-site#readme",
   "devDependencies": {
-    "@babel/core": "^7.8.7",
-    "@babel/preset-env": "^7.8.7",
-    "babel-loader": "^8.0.6",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "babel-loader": "^8.1.0",
     "css-loader": "^3.4.2",
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.1.0",
@@ -42,6 +42,7 @@
     "@fortawesome/fontawesome-free": "^5.12.1",
     "axios": "^0.19.2",
     "bootstrap": "^4.4.1",
+    "firebase": "^7.12.0",
     "jquery": "^3.4.1",
     "popper.js": "^1.16.1"
   }
