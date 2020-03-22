@@ -1,24 +1,15 @@
-const showSelectedDiv = (navButton) => {
-  if (navButton === 'home-bio') {
-    $('#bioSection').removeClass('hide');
-    $('#techSection').addClass('hide');
-    $('#projectSection').addClass('hide');
-  } else if (navButton === 'tech') {
-    console.error('clicked tech');
-    $('#bioSection').addClass('hide');
-    $('#techSection').removeClass('hide');
-    $('#projectSection').addClass('hide');
-  } else if (navButton === 'projects') {
-    $('#bioSection').addClass('hide');
-    $('#techSection').addClass('hide');
-    $('#projectSection').removeClass('hide');
-  }
+const showSelectedDiv = (divId, btnId) => {
+  $('a').removeClass('active');
+  $(`a#${btnId}`).addClass('active');
+  $('.div-section').addClass('hide');
+  $(`#${divId}`).removeClass('hide');
 };
 
+
 const navButtonEvents = () => {
-  $('#home-bio-btn').click(showSelectedDiv('home-bio'));
-  $('#projects-btn').click(showSelectedDiv('projects'));
-  $('#tech-btn').click(showSelectedDiv('tech'));
+  $('#home-bio-btn').on('click', () => showSelectedDiv('bio-section', 'home-bio-btn'));
+  $('#tech-btn').on('click', () => showSelectedDiv('tech-section', 'tech-btn'));
+  $('#projects-btn').on('click', () => showSelectedDiv('projects-section', 'projects-btn'));
 };
 
 export default { showSelectedDiv, navButtonEvents };
