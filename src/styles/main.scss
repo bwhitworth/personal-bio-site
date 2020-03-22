@@ -1,8 +1,9 @@
 @import "~bootstrap/scss/bootstrap";
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
+@import "./colors";
 
 body {
-  background-color:lighten($color: olivedrab, $amount: 30%);
+  background-color: $neutral-light;
   font-family: 'Muli', serif;
 }
 
@@ -15,41 +16,6 @@ body {
   justify-content: center;
 }
 
-.project-card {
-  display: flex;
-  flex-direction: column;
-  background-color: olivedrab;
-  margin: 10px;
-  font-size: 10pt;
-  color: white;
-  .img-container {
-    height: 300px;
-    overflow: hidden;
-    img {
-      width: 100%;
-    }
-  }
-  .project-gh-btn {
-    padding: 0;
-    margin: 0;
-    font-size: 40px;
-    color: white;
-  }
-}
-
-.img {
-  width: 250px;
-  padding: 5px;
-}
-
-.title {
-  font-size: 14pt;
-  text-align: center;
-  font-weight: bold;
-  padding: 10px;
-  background-color: cadetblue;
-}
-
 .hide {
   display: none;
 }
@@ -57,8 +23,7 @@ body {
 footer {
   display: flex;
   font-size: 8pt;
-  background-color:darken($color: olivedrab, $amount: 10%);
-  color: white;
+  background-color:$neutral-dark;
   padding: 0 5px 10px;
   margin: 0;
   padding: 10px;
@@ -66,14 +31,14 @@ footer {
   li {
     list-style-type: none;
     font-size: 16px;
-    
+    color: $accent-light;
   }
   a {
-    color: white;
+    color: $accent-light;
     text-decoration: none;
   }
   a:hover {
-    color: white;
+    color: $neutral-dark;
     text-decoration: underline;
   }
 }

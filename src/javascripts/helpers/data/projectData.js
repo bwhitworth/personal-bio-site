@@ -11,7 +11,7 @@ const projectsArray = [
   {
     title: 'Bear Tracker',
     screenshot: 'https://github.com/bwhitworth/bear-watcher/raw/master/screenshots/screenshot-bonus-main-collapsed.png',
-    description: 'Single-page app for tracking bears and their fishing records. Individual records are available with timestamps of successful catches and failed attempts. Fattest Bear Awards section tracks bears with most fish caught.',
+    description: 'Single-page app for tracking bears and their fishing records. Individual records with timestamps of catches and failures. Fattest Bear Awards tracks bears with most fish caught.',
     technologiesUsed: 'HTML, CSS, Vanilla JavaScript, GitHub Version Control',
     available: true,
     deployedUrl: 'https://github.com/nss-evening-cohort-8/js-part-deux',
