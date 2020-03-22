@@ -37,9 +37,8 @@ body {
   background-color: cadetblue;
 }
 
-footer {
-  margin: 0;
-  padding: 0 3px;
+.hide {
+  display: none;
 }
 
 footer {
@@ -49,5 +48,19 @@ footer {
   color: white;
   padding: 0 5px 10px;
   margin: 0;
+  padding: 10px;
   flex-direction: column;
+  li {
+    list-style-type: none;
+    font-size: 14px;
+    
+  }
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  a:hover {
+    color: white;
+    text-decoration: underline;
+  }
 }

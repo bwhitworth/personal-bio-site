@@ -17,15 +17,15 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-item nav-link active" href="#">Home/Bio <span class="sr-only">(current)</span></a>
-        <a class="nav-item nav-link" href="#">Technologies</a>
-        <a class="nav-item nav-link" href="#">Projects</a>
+        <button class="nav-item nav-link active" id="home-bio-btn">Home/Bio <span class="sr-only">(current)</span></button>
+        <button class="nav-item nav-link" id="tech-btn">Technologies</button>
+        <button class="nav-item nav-link" id="projects-btn">Projects</button>
       </div>
     </div>
   </nav>
 
   <!-- Primary View -->
-  <div class="div-section" id="bioPage">
+  <div class="div-section" id="bioSection">
     <h3>Bio</h3>
     <p>I have been working as a healthcare billing specialist for about 8 years, 
       with plenty of exposure to healthcare tech.  I am interested in one day applying
@@ -34,7 +34,7 @@
       code "work".  I have a strong interest in effeciency and productivity, so I hope 
       to one day apply these skills to a new position as a developer.</p>
   </div>
-  <div class="div-section" id="technologiesPage">
+  <div class="div-section hide" id="techSection">
     <h3>Tools & Technologies</h3>
     <div class="list-group">
       <a href="#" class="list-group-item list-group-item-action">HTML</a>
@@ -43,7 +43,7 @@
       <a href="#" class="list-group-item list-group-item-action">Bootstrap</a>
     </div>
   </div>  
-  <div class="div-section" >
+  <div class="div-section hide" id="projectSection">
     <h3>Projects</h3>
     <div id="projects-container"></div>
   </div>
@@ -51,11 +51,13 @@
   <!-- End Primary View -->
 
   <!-- Footer -->
-  <footer class="page-footer">
+  <footer class="page-footer fixed-bottom">
     <h4>Contact:</h4>
-    <p class="footer-p">Email > bethanyjwhitworth@gmail.com</p>
-    <p class="footer-p">LinkedIn > linkedin.com/in/bethanyjwhitworth</p class="footer-p">
-    <p class="footer-p">GitHub > github.com/bwhitworth</p class="footer-p">
+    <ul>
+      <li><i class="fas fa-envelope-square"></i> <a href="mailto:bethanyjwhitworth@gmail.com">bethanyjwhitworth@gmail.com</a></li>
+      <li><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/bethanyjwhitworth/">bethanyjwhitworth</a></li class="footer-p">
+      <li><i class="fab fa-github-square"></i> github.com/bwhitworth</li class="footer-p">
+    </ul>  
   </footer>
   <!-- End Footer -->
 </body>
