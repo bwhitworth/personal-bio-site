@@ -5,7 +5,7 @@
     "description": "Single-page app which replicates the Sorting Hat concept from Harry Potter. Add students and sort them into random houses, then expel the bad ones to Voldermort's army.",
     "technologiesUsed": "HTML, CSS, Vanilla JavaScript, GitHub Version Control",
     "available": "true",
-    "deployedUrl": "pending",
+    "deployedUrl": "https://sorting-hat-bwhitworth.firebaseapp.com/?#",
     "githubUrl": "https://github.com/bwhitworth/sorting-hat"
   },
   "project2": {
@@ -14,7 +14,7 @@
     "description": "Single-page app for tracking bears and their fishing records. Individual records with timestamps of catches and failures. Fattest Bear Awards tracks bears with most fish caught.",
     "technologiesUsed": "HTML, CSS, Vanilla JavaScript, GitHub Version Control",
     "available": "true",
-    "deployedUrl": "pending",
+    "deployedUrl": "https://bear-tracker-bwhitworth.firebaseapp.com/",
     "githubUrl": "https://github.com/bwhitworth/bear-watcher"
   },
   "project3": {
@@ -23,7 +23,7 @@
     "description": "Group project. Single-page app that simulates a chatroom with multiple users. Messages are added and deleted per 'user'.  Bonus features: theme change and large text options.",
     "technologiesUsed": "HTML, CSS, Vanilla JavaScript, GitHub Version Control, Webpack",
     "available": "true",
-    "deployedUrl": "pending",
+    "deployedUrl": "https://chatty-bwhitworth.firebaseapp.com/",
     "githubUrl": "https://github.com/bwhitworth/chatty-waterwheels"
   }
   }
