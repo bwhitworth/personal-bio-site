@@ -16,6 +16,10 @@ body {
   justify-content: center;
 }
 
+.card-header {
+  font-weight: bolder;
+}
+
 .hide {
   display: none;
 }
@@ -38,7 +42,7 @@ footer {
     text-decoration: none;
   }
   a:hover {
-    color: $neutral-dark;
+    color: black;
     text-decoration: underline;
   }
 }
