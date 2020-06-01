@@ -7,9 +7,10 @@ HTML5, CSS/SCSS, Vanilla Javascript, Bootstrap
 NSS project for personal biography site, to display developer skills and projects. 
 > _To be updated frequently as NSS course progresses, and upon graduation_
 
-### Screenshot:
-#### (work-in-progress)
+### Screenshot of Projects Page:
 ![screenshot](screenshots/screenshot032220.png)
+
+[Click here to view the deployed web app](https://b-whitworth.firebaseapp.com/)
 
 ### Instructions to Run:
 1. If you do not have npm http-server installed, follow instuctions [here](https://www.npmjs.com/package/http-server) to install on your device
