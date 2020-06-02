@@ -6,6 +6,9 @@ body {
   background-color: $neutral-light;
   font-family: 'Muli', serif;
 }
+.navbar-brand {
+  color: $accent-bold;
+}
 
 .div-section {
   margin: 20px;
@@ -22,6 +25,10 @@ body {
 
 .hide {
   display: none;
+}
+
+.tech-list {
+  color: $accent-bold;
 }
 
 footer {

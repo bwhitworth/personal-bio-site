@@ -1,18 +1,18 @@
 {
   "project1": {
-    "title": "Sorting Hat",
-    "screenshot": "https://github.com/bwhitworth/sorting-hat/raw/master/screenshots/sorting-hat-screenshot-1.png",
-    "description": "Single-page app which replicates the Sorting Hat concept from Harry Potter. Add students and sort them into random houses, then expel the bad ones to Voldermort's army.",
-    "technologiesUsed": "HTML, CSS, Vanilla JavaScript, GitHub Version Control",
+    "title": "Sports Roster",
+    "screenshot": "https://github.com/bwhitworth/sports-roster/blob/master/screenshots/Authenticated_View.png?raw=true",
+    "description": "Single-page app in which users can perform full CRUD with a roster of sports players. This was my second exercise with React, and the first React project with full-CRUD capability.",
+    "technologiesUsed": "HTML, SCSS/CSS, React, GitHub Version Control",
     "available": "true",
-    "deployedUrl": "https://sorting-hat-bwhitworth.firebaseapp.com/?#",
-    "githubUrl": "https://github.com/bwhitworth/sorting-hat"
+    "deployedUrl": "https://sports-roster-1f515.firebaseapp.com/",
+    "githubUrl": "https://github.com/bwhitworth/sports-roster"
   },
   "project2": {
     "title": "Bear Tracker",
     "screenshot": "https://github.com/bwhitworth/bear-watcher/raw/master/screenshots/screenshot-bonus-main-collapsed.png",
-    "description": "Single-page app for tracking bears and their fishing records. Individual records with timestamps of catches and failures. Fattest Bear Awards tracks bears with most fish caught.",
-    "technologiesUsed": "HTML, CSS, Vanilla JavaScript, GitHub Version Control",
+    "description": "Single-page app for tracking bears and their fishing records. Individual records with timestamps of each bear's catches and failures. Fattest Bear Awards tracks bears with most fish caught, in real-time. This project was an introduction to webpack modules.",
+    "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Webpack, GitHub Version Control",
     "available": "true",
     "deployedUrl": "https://bear-tracker-bwhitworth.firebaseapp.com/",
     "githubUrl": "https://github.com/bwhitworth/bear-watcher"
@@ -20,10 +20,19 @@
   "project3": {
     "title": "Chatty",
     "screenshot": "https://github.com/bwhitworth/chatty-waterwheels/raw/master/src/javascripts/screenshots/chatty.png",
-    "description": "Group project. Single-page app that simulates a chatroom with multiple users. Messages are added and deleted per 'user'.  Bonus features: theme change and large text options.",
+    "description": "Group project to create a single-page app which simulates a chatroom with multiple users. Messages are added and deleted per 'user'.  Bonus features: theme change and large text options. This was my first group project using webpack modules.",
     "technologiesUsed": "HTML, CSS, Vanilla JavaScript, GitHub Version Control, Webpack",
     "available": "true",
     "deployedUrl": "https://chatty-bwhitworth.firebaseapp.com/",
     "githubUrl": "https://github.com/bwhitworth/chatty-waterwheels"
+  },
+  "project4": {
+    "title": "Sorting Hat",
+    "screenshot": "https://github.com/bwhitworth/sorting-hat/raw/master/screenshots/sorting-hat-screenshot-1.png",
+    "description": "Single-page app which replicates the Sorting Hat concept from Harry Potter. Add students and sort them into random houses, then expel the bad ones to Voldermort's army. This was one of my first projects with Javascript event listeners and functions.",
+    "technologiesUsed": "HTML, CSS, Vanilla JavaScript, GitHub Version Control",
+    "available": "true",
+    "deployedUrl": "https://sorting-hat-bwhitworth.firebaseapp.com/",
+    "githubUrl": "https://github.com/bwhitworth/sorting-hat"
   }
   }
