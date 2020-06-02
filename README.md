@@ -8,11 +8,13 @@ NSS project for personal biography site, to display developer skills and project
 > _To be updated frequently as NSS course progresses, and upon graduation_
 
 ### Screenshot of Projects Page:
-![screenshot](screenshots/screenshot032220.png)
+![screenshot](screenshots/Projects_4.png)
 
 [Click here to view the deployed web app](https://b-whitworth.firebaseapp.com/)
 
 ### Instructions to Run:
+[Click here to view the deployed web app](deployed site)
+
 1. If you do not have npm http-server installed, follow instuctions [here](https://www.npmjs.com/package/http-server) to install on your device
 1. Use GitHub's [Cloning Feature](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) to download a local copy of the files for this project
 1. In your command line interface, change directory into the folder that contains your copied files

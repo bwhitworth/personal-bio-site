@@ -1,0 +1,37 @@
+[debug] [2020-06-02T02:50:20.495Z] ----------------------------------------------------------------------
+[debug] [2020-06-02T02:50:20.497Z] Command:       /usr/local/Cellar/node/13.8.0/bin/node /usr/local/bin/firebase deploy
+[debug] [2020-06-02T02:50:20.497Z] CLI Version:   7.16.1
+[debug] [2020-06-02T02:50:20.497Z] Platform:      darwin
+[debug] [2020-06-02T02:50:20.497Z] Node Version:  v13.8.0
+[debug] [2020-06-02T02:50:20.498Z] Time:          Mon Jun 01 2020 21:50:20 GMT-0500 (Central Daylight Time)
+[debug] [2020-06-02T02:50:20.498Z] ----------------------------------------------------------------------
+[debug] [2020-06-02T02:50:20.498Z] 
+[debug] [2020-06-02T02:50:20.512Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-06-02T02:50:20.512Z] > authorizing via signed-in user
+[debug] [2020-06-02T02:50:20.513Z] [iam] checking project b-whitworth for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2020-06-02T02:50:20.514Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-06-02T02:50:20.515Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-06-02T02:50:20.691Z] <<< HTTP RESPONSE 200
+[debug] [2020-06-02T02:50:20.699Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/b-whitworth:testIamPermissions  
+
+[debug] [2020-06-02T02:50:21.026Z] <<< HTTP RESPONSE 200
+[debug] [2020-06-02T02:50:21.028Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/b-whitworth  
+ 
+[debug] [2020-06-02T02:50:21.275Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'b-whitworth'...
+[info] 
+[info] i  deploying hosting
+[debug] [2020-06-02T02:50:21.280Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/b-whitworth/versions  
+
+[debug] [2020-06-02T02:50:22.225Z] <<< HTTP RESPONSE 200
+[info] i  hosting[b-whitworth]: beginning deploy...
+[info] i  hosting[b-whitworth]: found 18 files in build
+[debug] [2020-06-02T02:50:22.427Z] [hosting] hash cache [YnVpbGQ] stored for 18 files
+[debug] [2020-06-02T02:50:22.427Z] [hosting][hash queue][FINAL]
+[debug] [2020-06-02T02:50:22.427Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/projects/142251199780/sites/b-whitworth/versions/203463d93e4eb43c:populateFiles  
+ <request body omitted>
+[debug] [2020-06-02T02:50:23.141Z] <<< HTTP RESPONSE 200
+[debug] [2020-06-02T02:50:23.144Z] [hosting][populate queue][FINAL]
+[debug] [2020-06-02T02:50:23.144Z] [hosting] uploads queued: 2
